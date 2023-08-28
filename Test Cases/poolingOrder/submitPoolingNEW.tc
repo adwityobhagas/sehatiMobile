@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Sehati Mobile Automated Test</description>
-   <name>submitPooling</name>
+   <name>submitPoolingNEW</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a0ffe01c-76cd-4381-aac3-2cfe3d9cf70e</testCaseGuid>

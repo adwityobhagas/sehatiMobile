@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>loginSehatiMobile</name>
+   <name>loginSehatiMobile(CMO)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e53bb2ad-4299-40bf-95b0-e6cb16e137cc</testCaseGuid>
+   <testCaseGuid>9ed9f420-a711-48b3-a9fa-2af25858a3b0</testCaseGuid>
 </TestCaseEntity>

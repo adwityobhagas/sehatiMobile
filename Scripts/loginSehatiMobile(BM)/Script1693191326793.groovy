@@ -29,9 +29,7 @@ Mobile.sendKeys(findTestObject('Object Repository/loginPage/android.widget.EditT
 
 Mobile.tap(findTestObject('Object Repository/loginPage/android.widget.Button'), 0)
 
-Mobile.delay(40, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(25, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/loginPage/android.widget.ButtonOkSetelahLogin'), 0)
-
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/loginPage/android.widget.ButtonOkSetelahLogin'), 15)
 
