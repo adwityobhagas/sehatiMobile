@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginLogoutSehatiMobile,,Login dan Logout di aplikasi Sehati Mobile,,2023-08-28 10:37:04,2023-08-28 10:38:34,1m - 29.160s,PASSED
+,,,,,,,
+Test Cases/loginSehatiMobile(CMO),,,,2023-08-28 10:37:05,2023-08-28 10:38:01,56.732s,PASSED
+"startExistingApplication(""id.pkp.sehati.uat"")",,,,2023-08-28 10:37:05,2023-08-28 10:37:26,20.784s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.EditText - NPK""), 0)",,,,2023-08-28 10:37:26,2023-08-28 10:37:27,0.822s,PASSED
+"sendKeys(findTestObject(""Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK""), ""220885"")",,,,2023-08-28 10:37:27,2023-08-28 10:37:28,1.131s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.EditText - Kata Sandi""), 0)",,,,2023-08-28 10:37:28,2023-08-28 10:37:29,0.666s,PASSED
+"sendKeys(findTestObject(""Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi""), ""12345678"")",,,,2023-08-28 10:37:29,2023-08-28 10:37:30,1.050s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.Button""), 0)",,,,2023-08-28 10:37:30,2023-08-28 10:37:31,1.186s,PASSED
+"delay(25, STOP_ON_FAILURE)",,,,2023-08-28 10:37:31,2023-08-28 10:37:56,25.054s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.ButtonOkSetelahLogin""), 15)",,,,2023-08-28 10:37:56,2023-08-28 10:38:01,5.608s,PASSED
+,,,,,,,
+Test Cases/logoutSehatiMobile,,,,2023-08-28 10:38:01,2023-08-28 10:38:34,32.082s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonProfile""), 0)",,,,2023-08-28 10:38:02,2023-08-28 10:38:03,0.884s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonLogout""), 0)",,,,2023-08-28 10:38:03,2023-08-28 10:38:04,1.646s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonCancelLogout""), 0)",,,,2023-08-28 10:38:04,2023-08-28 10:38:06,1.370s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonKeluarLogout""), 0)",,,,2023-08-28 10:38:06,2023-08-28 10:38:33,26.937s,PASSED
+closeApplication(),,,,2023-08-28 10:38:33,2023-08-28 10:38:34,0.979s,PASSED
