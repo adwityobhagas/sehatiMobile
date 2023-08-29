@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginLogoutSehatiMobile" time="58.442" tests="2" failures="0" errors="0">
+   <testsuite name="loginLogoutSehatiMobile" tests="2" failures="0" errors="0" time="58.442" skipped="0" timestamp="2023-08-28 10:41:28" hostname="User - 10.10.0.78" id="Test Suites/loginLogoutSehatiMobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\sehatiMobile\\Reports\\20230828_104124\\loginLogoutSehatiMobile\\20230828_104124"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\sehatiMobile\\Reports\\20230828_104124\\loginLogoutSehatiMobile\\20230828_104124\\appium.log, C:\\Users\\User\\git\\sehatiMobile\\Reports\\20230828_104124\\loginLogoutSehatiMobile\\20230828_104124\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.10.0.78"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2103K19PG"/>
+         <property name="hostAddress" value="10.10.0.78"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aihykrce5lrgzhxg"/>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/loginSehatiMobile(CMO)" time="52.742" classname="Test Cases/loginSehatiMobile(CMO)" status="PASSED">
+         <system-out><![CDATA[2023-08-28 10:41:28 - [TEST_CASE][PASSED] - Test Cases/loginSehatiMobile(CMO): Test Cases/loginSehatiMobile(CMO)
+
+2023-08-28 10:41:28 - [TEST_STEP][PASSED] - startExistingApplication("id.pkp.sehati.uat"): Starting app with application ID: 'id.pkp.sehati.uat'
+
+2023-08-28 10:41:29 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-28 10:41:31 - [MESSAGE][INFO] - Appium server started on port 56,220
+
+2023-08-28 10:41:49 - [MESSAGE][PASSED] - Starting app with application ID: 'id.pkp.sehati.uat'
+
+2023-08-28 10:41:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.EditText - NPK"), 0): Tapped on element 'Object Repository/loginPage/android.widget.EditText - NPK'
+
+2023-08-28 10:41:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:41:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.EditText - NPK'
+
+2023-08-28 10:41:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK"), "220885"): Send keys '220885' on test object 'Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK' successfully.
+
+2023-08-28 10:41:51 - [MESSAGE][PASSED] - Send keys '220885' on test object 'Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK' successfully.
+
+2023-08-28 10:41:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.EditText - Kata Sandi"), 0): Tapped on element 'Object Repository/loginPage/android.widget.EditText - Kata Sandi'
+
+2023-08-28 10:41:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:41:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.EditText - Kata Sandi'
+
+2023-08-28 10:41:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi"), "12345678"): Send keys '12345678' on test object 'Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi' successfully.
+
+2023-08-28 10:41:53 - [MESSAGE][PASSED] - Send keys '12345678' on test object 'Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi' successfully.
+
+2023-08-28 10:41:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.Button"), 0): Tapped on element 'Object Repository/loginPage/android.widget.Button'
+
+2023-08-28 10:41:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:41:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.Button'
+
+2023-08-28 10:41:55 - [TEST_STEP][PASSED] - delay(25, STOP_ON_FAILURE): Delayed 25 second(s)
+
+2023-08-28 10:42:20 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2023-08-28 10:42:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.ButtonOkSetelahLogin"), 15): Tapped on element 'Object Repository/loginPage/android.widget.ButtonOkSetelahLogin'
+
+2023-08-28 10:42:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.ButtonOkSetelahLogin']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logoutSehatiMobile" time="5.367" classname="Test Cases/logoutSehatiMobile" status="PASSED">
+         <system-out><![CDATA[2023-08-28 10:42:21 - [TEST_CASE][PASSED] - Test Cases/logoutSehatiMobile: Test Cases/logoutSehatiMobile
+
+2023-08-28 10:42:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/logoutPage/buttonProfile"), 0): Tapped on element 'Object Repository/logoutPage/buttonProfile'
+
+2023-08-28 10:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:42:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonProfile'
+
+2023-08-28 10:42:22 - [TEST_STEP][PASSED] - tap(findTestObject("logoutPage/buttonLogout"), 0): Tapped on element 'Object Repository/logoutPage/buttonLogout'
+
+2023-08-28 10:42:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:42:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonLogout'
+
+2023-08-28 10:42:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/logoutPage/buttonKeluarLogout"), 0): Tapped on element 'Object Repository/logoutPage/buttonKeluarLogout'
+
+2023-08-28 10:42:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-28 10:42:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonKeluarLogout'
+
+2023-08-28 10:42:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-28 10:42:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-28 10:41:28 - [TEST_SUITE][PASSED] - loginLogoutSehatiMobile: Test Cases/logoutSehatiMobile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
