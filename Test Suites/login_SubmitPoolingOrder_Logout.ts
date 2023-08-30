@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Login dan Logout di aplikasi Sehati Mobile</description>
-   <name>loginLogoutSehatiMobile</name>
+   <description>Sehati Mobile Automation Test 
+Login, Submit Pooling Order, dan Logout dari Aplikasi</description>
+   <name>login_SubmitPoolingOrder_Logout</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,16 +11,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>23649645-c310-4de6-bcf6-9ab8b7a93189</testSuiteGuid>
+   <testSuiteGuid>75061119-6bf3-4f87-ab4f-15b6af6bafd9</testSuiteGuid>
    <testCaseLink>
-      <guid>3f34ed4b-705c-4319-9ed8-9d24b64b42a8</guid>
+      <guid>80e64d55-60ee-4ddb-987c-19adc8a7b72a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/loginSehatiMobile(CMO)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f5c491e-4cac-476c-b30b-4203367fb613</guid>
+      <guid>1ac8fc96-77cc-4abd-a633-1c9aa19ea875</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/poolingOrder/submitPoolingNEW</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3cd2687-05f4-47b9-8fd3-28713449a781</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/logoutSehatiMobileFromPooling</testCaseId>

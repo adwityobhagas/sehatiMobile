@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_SubmitPoolingOrder_Logout" time="151.233" tests="3" failures="0" errors="0">
+   <testsuite name="login_SubmitPoolingOrder_Logout" tests="3" failures="0" errors="0" time="151.233" skipped="0" timestamp="2023-08-30 14:19:22" hostname="User - 10.10.0.78" id="Test Suites/login_SubmitPoolingOrder_Logout">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\branchTesting\\sehatiMobile\\Reports\\20230830_141918\\login_SubmitPoolingOrder_Logout\\20230830_141918"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\branchTesting\\sehatiMobile\\Reports\\20230830_141918\\login_SubmitPoolingOrder_Logout\\20230830_141918\\appium.log, C:\\Users\\User\\git\\branchTesting\\sehatiMobile\\Reports\\20230830_141918\\login_SubmitPoolingOrder_Logout\\20230830_141918\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 10.10.0.78"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="M2103K19PG"/>
+         <property name="hostAddress" value="10.10.0.78"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="aihykrce5lrgzhxg"/>
+         <property name="deviceName" value="Xiaomi M2103K19PG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/loginSehatiMobile(CMO)" time="60.15" classname="Test Cases/loginSehatiMobile(CMO)" status="PASSED">
+         <system-out><![CDATA[2023-08-30 14:19:23 - [TEST_CASE][PASSED] - Test Cases/loginSehatiMobile(CMO): Test Cases/loginSehatiMobile(CMO)
+
+2023-08-30 14:19:23 - [TEST_STEP][PASSED] - startExistingApplication("id.pkp.sehati.uat"): Starting app with application ID: 'id.pkp.sehati.uat'
+
+2023-08-30 14:19:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-30 14:19:26 - [MESSAGE][INFO] - Appium server started on port 55,879
+
+2023-08-30 14:19:50 - [MESSAGE][PASSED] - Starting app with application ID: 'id.pkp.sehati.uat'
+
+2023-08-30 14:19:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.EditText - NPK"), 0): Tapped on element 'Object Repository/loginPage/android.widget.EditText - NPK'
+
+2023-08-30 14:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:19:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.EditText - NPK'
+
+2023-08-30 14:19:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK"), "220885"): Send keys '220885' on test object 'Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK' successfully.
+
+2023-08-30 14:19:53 - [MESSAGE][PASSED] - Send keys '220885' on test object 'Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK' successfully.
+
+2023-08-30 14:19:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.EditText - Kata Sandi"), 0): Tapped on element 'Object Repository/loginPage/android.widget.EditText - Kata Sandi'
+
+2023-08-30 14:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:19:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.EditText - Kata Sandi'
+
+2023-08-30 14:19:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi"), "12345678"): Send keys '12345678' on test object 'Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi' successfully.
+
+2023-08-30 14:19:55 - [MESSAGE][PASSED] - Send keys '12345678' on test object 'Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi' successfully.
+
+2023-08-30 14:19:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.Button"), 0): Tapped on element 'Object Repository/loginPage/android.widget.Button'
+
+2023-08-30 14:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.Button'
+
+2023-08-30 14:19:57 - [TEST_STEP][PASSED] - delay(25, STOP_ON_FAILURE): Delayed 25 second(s)
+
+2023-08-30 14:20:22 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2023-08-30 14:20:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/loginPage/android.widget.ButtonOkSetelahLogin"), 15): Tapped on element 'Object Repository/loginPage/android.widget.ButtonOkSetelahLogin'
+
+2023-08-30 14:20:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/loginPage/android.widget.ButtonOkSetelahLogin']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/poolingOrder/submitPoolingNEW" time="83.333" classname="Test Cases/poolingOrder/submitPoolingNEW" status="PASSED">
+         <system-out><![CDATA[2023-08-30 14:20:23 - [TEST_CASE][PASSED] - Test Cases/poolingOrder/submitPoolingNEW: Test Cases/poolingOrder/submitPoolingNEW
+
+2023-08-30 14:20:24 - [TEST_STEP][PASSED] - tap(findTestObject("homePage/buttonAcquisition"), 0): Tapped on element 'Object Repository/homePage/buttonAcquisition'
+
+2023-08-30 14:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/homePage/buttonAcquisition'
+
+2023-08-30 14:20:26 - [TEST_STEP][PASSED] - tap(findTestObject("acquisitionPage/buttonPoolingOrder"), 0): Tapped on element 'Object Repository/acquisitionPage/buttonPoolingOrder'
+
+2023-08-30 14:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/acquisitionPage/buttonPoolingOrder'
+
+2023-08-30 14:20:27 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonUnitBisnisDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonUnitBisnisDDL'
+
+2023-08-30 14:20:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonUnitBisnisDDL'
+
+2023-08-30 14:20:29 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:20:31 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:20:31 - [TEST_STEP][PASSED] - radioButton1TapAtPosition(970, 1360): null
+
+2023-08-30 14:20:31 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 1,360]
+
+2023-08-30 14:20:32 - [MESSAGE][PASSED] - Tapped at [970, 1,360]
+
+2023-08-30 14:20:32 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:20:33 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonCA_AnggotaDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonCA_AnggotaDDL'
+
+2023-08-30 14:20:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonCA_AnggotaDDL'
+
+2023-08-30 14:20:34 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:20:35 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:20:36 - [TEST_STEP][PASSED] - radioButton1TapAtPosition(970, 1360): null
+
+2023-08-30 14:20:36 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 1,360]
+
+2023-08-30 14:20:36 - [MESSAGE][PASSED] - Tapped at [970, 1,360]
+
+2023-08-30 14:20:36 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:20:37 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:20:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:20:38 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonKonsumenNewDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonKonsumenNewDDL'
+
+2023-08-30 14:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonKonsumenNewDDL'
+
+2023-08-30 14:20:39 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:20:39 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:20:39 - [TEST_STEP][PASSED] - searchButtonTapAtPosition(970, 325): null
+
+2023-08-30 14:20:39 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 325]
+
+2023-08-30 14:20:40 - [MESSAGE][PASSED] - Tapped at [970, 325]
+
+2023-08-30 14:20:40 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:20:42 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:20:42 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/cardNumber01"), 0): Tapped on element 'Object Repository/poolingOrderPage/cardNumber01'
+
+2023-08-30 14:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/cardNumber01'
+
+2023-08-30 14:20:42 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:20:43 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:20:43 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/fieldTextTempatLahir"), 0): Tapped on element 'Object Repository/poolingOrderPage/fieldTextTempatLahir'
+
+2023-08-30 14:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/fieldTextTempatLahir'
+
+2023-08-30 14:20:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("poolingOrderPage/fieldTextTempatLahir"), "JKT\n"): Send keys 'JKT\n' on test object 'Object Repository/poolingOrderPage/fieldTextTempatLahir' successfully.
+
+2023-08-30 14:20:46 - [MESSAGE][PASSED] - Send keys 'JKT\n' on test object 'Object Repository/poolingOrderPage/fieldTextTempatLahir' successfully.
+
+2023-08-30 14:20:46 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:20:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:20:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-30 14:20:47 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-30 14:20:47 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:20:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:20:48 - [TEST_STEP][PASSED] - swipe(0, 1268, 0, 900): Swiped from 0,1,268 to 0,900
+
+2023-08-30 14:20:49 - [MESSAGE][PASSED] - Swiped from 0,1,268 to 0,900
+
+2023-08-30 14:20:49 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:20:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:20:50 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonDatePicker_TglLahir"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonDatePicker_TglLahir'
+
+2023-08-30 14:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonDatePicker_TglLahir'
+
+2023-08-30 14:20:52 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:20:53 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:20:53 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/datePicker/buttonInputDatePicker"), 0): Tapped on element 'Object Repository/poolingOrderPage/datePicker/buttonInputDatePicker'
+
+2023-08-30 14:20:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/datePicker/buttonInputDatePicker'
+
+2023-08-30 14:20:54 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:20:55 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:20:55 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/datePicker/fieldTextEnterDate_XPATH"), 0): Tapped on element 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'
+
+2023-08-30 14:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'
+
+2023-08-30 14:20:55 - [TEST_STEP][PASSED] - clearText(findTestObject("poolingOrderPage/datePicker/fieldTextEnterDate_XPATH"), 0): Element 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH' text is cleared
+
+2023-08-30 14:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:20:57 - [MESSAGE][PASSED] - Element 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH' text is cleared
+
+2023-08-30 14:20:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("poolingOrderPage/datePicker/fieldTextEnterDate_XPATH"), "09/09/2001"): Send keys '09/09/2001' on test object 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH' successfully.
+
+2023-08-30 14:20:58 - [MESSAGE][PASSED] - Send keys '09/09/2001' on test object 'Object Repository/poolingOrderPage/datePicker/fieldTextEnterDate_XPATH' successfully.
+
+2023-08-30 14:20:58 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:20:58 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:20:58 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/datePicker/buttonInputOkDatePicker"), 0): Tapped on element 'Object Repository/poolingOrderPage/datePicker/buttonInputOkDatePicker'
+
+2023-08-30 14:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/datePicker/buttonInputOkDatePicker'
+
+2023-08-30 14:21:00 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:01 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/fieldTextNamaIbu"), 0): Tapped on element 'Object Repository/poolingOrderPage/fieldTextNamaIbu'
+
+2023-08-30 14:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/fieldTextNamaIbu'
+
+2023-08-30 14:21:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("poolingOrderPage/fieldTextNamaIbu"), "TEST IBU\n"): Send keys 'TEST IBU\n' on test object 'Object Repository/poolingOrderPage/fieldTextNamaIbu' successfully.
+
+2023-08-30 14:21:03 - [MESSAGE][PASSED] - Send keys 'TEST IBU\n' on test object 'Object Repository/poolingOrderPage/fieldTextNamaIbu' successfully.
+
+2023-08-30 14:21:03 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-30 14:21:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-30 14:21:03 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonJenisKelaminDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonJenisKelaminDDL'
+
+2023-08-30 14:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonJenisKelaminDDL'
+
+2023-08-30 14:21:06 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:21:07 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:21:07 - [TEST_STEP][PASSED] - radioButton1TapAtPosition(970, 1360): null
+
+2023-08-30 14:21:07 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 1,360]
+
+2023-08-30 14:21:09 - [MESSAGE][PASSED] - Tapped at [970, 1,360]
+
+2023-08-30 14:21:09 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:09 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:21:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:21:10 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonStatusPernikahanDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonStatusPernikahanDDL'
+
+2023-08-30 14:21:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonStatusPernikahanDDL'
+
+2023-08-30 14:21:11 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:21:12 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:21:12 - [TEST_STEP][PASSED] - radioButton1TapAtPosition(970, 1360): null
+
+2023-08-30 14:21:12 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 1,360]
+
+2023-08-30 14:21:13 - [MESSAGE][PASSED] - Tapped at [970, 1,360]
+
+2023-08-30 14:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:14 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:21:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:21:15 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonTypeIdentitasDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonTypeIdentitasDDL'
+
+2023-08-30 14:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonTypeIdentitasDDL'
+
+2023-08-30 14:21:16 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2023-08-30 14:21:18 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2023-08-30 14:21:18 - [TEST_STEP][PASSED] - radioButton1TapAtPosition(970, 1360): null
+
+2023-08-30 14:21:18 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [970, 1,360]
+
+2023-08-30 14:21:19 - [MESSAGE][PASSED] - Tapped at [970, 1,360]
+
+2023-08-30 14:21:19 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkDDL"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkDDL'
+
+2023-08-30 14:21:19 - [TEST_STEP][PASSED] - swipe(0, 1600, 0, 1083): Swiped from 0,1,600 to 0,1,083
+
+2023-08-30 14:21:20 - [MESSAGE][PASSED] - Swiped from 0,1,600 to 0,1,083
+
+2023-08-30 14:21:20 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:21 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:21 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonCallNoTelepon"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonCallNoTelepon'
+
+2023-08-30 14:21:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonCallNoTelepon'
+
+2023-08-30 14:21:21 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-08-30 14:21:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-30 14:21:23 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonRejectCall"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonRejectCall'
+
+2023-08-30 14:21:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonRejectCall'
+
+2023-08-30 14:21:23 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-30 14:21:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-30 14:21:24 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/fieldTextNoIdentitas"), 0): Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoIdentitas'
+
+2023-08-30 14:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoIdentitas'
+
+2023-08-30 14:21:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("poolingOrderPage/fieldTextNoIdentitas"), "312125125122\n"): Send keys '312125125122\n' on test object 'Object Repository/poolingOrderPage/fieldTextNoIdentitas' successfully.
+
+2023-08-30 14:21:27 - [MESSAGE][PASSED] - Send keys '312125125122\n' on test object 'Object Repository/poolingOrderPage/fieldTextNoIdentitas' successfully.
+
+2023-08-30 14:21:27 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-30 14:21:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-30 14:21:27 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:28 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:28 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/fieldTextNoPolisi"), 0): Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoPolisi'
+
+2023-08-30 14:21:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoPolisi'
+
+2023-08-30 14:21:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("poolingOrderPage/fieldTextNoPolisi"), "30082023\n"): Send keys '30082023\n' on test object 'Object Repository/poolingOrderPage/fieldTextNoPolisi' successfully.
+
+2023-08-30 14:21:30 - [MESSAGE][PASSED] - Send keys '30082023\n' on test object 'Object Repository/poolingOrderPage/fieldTextNoPolisi' successfully.
+
+2023-08-30 14:21:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-30 14:21:30 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-30 14:21:30 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/fieldTextNoMesin (1)"), 0): Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoMesin (1)'
+
+2023-08-30 14:21:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/fieldTextNoMesin (1)'
+
+2023-08-30 14:21:33 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:33 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:33 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-08-30 14:21:33 - [TEST_STEP][PASSED] - getKeyboard().sendKeys("30082023"): null
+
+2023-08-30 14:21:34 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-08-30 14:21:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-08-30 14:21:36 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:36 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:36 - [TEST_STEP][PASSED] - submitButtonTapAtPosition(545, 2123): null
+
+2023-08-30 14:21:36 - [TEST_STEP][PASSED] - tapAtPosition(x, y): Tapped at [545, 2,123]
+
+2023-08-30 14:21:37 - [MESSAGE][PASSED] - Tapped at [545, 2,123]
+
+2023-08-30 14:21:37 - [TEST_STEP][PASSED] - delay(2.5, STOP_ON_FAILURE): Delayed 2.5 second(s)
+
+2023-08-30 14:21:40 - [MESSAGE][PASSED] - Delayed 2.5 second(s)
+
+2023-08-30 14:21:40 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonAjukanPollOrder"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonAjukanPollOrder'
+
+2023-08-30 14:21:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonAjukanPollOrder'
+
+2023-08-30 14:21:41 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-08-30 14:21:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 14:21:44 - [TEST_STEP][PASSED] - tap(findTestObject("poolingOrderPage/buttonOkPopUpMessageDataInsert"), 0): Tapped on element 'Object Repository/poolingOrderPage/buttonOkPopUpMessageDataInsert'
+
+2023-08-30 14:21:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/poolingOrderPage/buttonOkPopUpMessageDataInsert']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logoutSehatiMobileFromPooling" time="7.316" classname="Test Cases/logoutSehatiMobileFromPooling" status="PASSED">
+         <system-out><![CDATA[2023-08-30 14:21:46 - [TEST_CASE][PASSED] - Test Cases/logoutSehatiMobileFromPooling: Test Cases/logoutSehatiMobileFromPooling
+
+2023-08-30 14:21:47 - [TEST_STEP][PASSED] - tap(findTestObject("buttonBackFromMenu"), 0): Tapped on element 'Object Repository/buttonBackFromMenu'
+
+2023-08-30 14:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonBackFromMenu'
+
+2023-08-30 14:21:48 - [TEST_STEP][PASSED] - delay(0.5, STOP_ON_FAILURE): Delayed 0.5 second(s)
+
+2023-08-30 14:21:49 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+2023-08-30 14:21:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/logoutPage/buttonProfile"), 0): Tapped on element 'Object Repository/logoutPage/buttonProfile'
+
+2023-08-30 14:21:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonProfile'
+
+2023-08-30 14:21:50 - [TEST_STEP][PASSED] - tap(findTestObject("logoutPage/buttonLogout"), 0): Tapped on element 'Object Repository/logoutPage/buttonLogout'
+
+2023-08-30 14:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonLogout'
+
+2023-08-30 14:21:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/logoutPage/buttonKeluarLogout"), 0): Tapped on element 'Object Repository/logoutPage/buttonKeluarLogout'
+
+2023-08-30 14:21:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 14:21:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/logoutPage/buttonKeluarLogout'
+
+2023-08-30 14:21:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-30 14:21:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 14:19:22 - [TEST_SUITE][PASSED] - login_SubmitPoolingOrder_Logout: Test Cases/logoutSehatiMobileFromPooling]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

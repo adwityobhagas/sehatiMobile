@@ -20,8 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import org.openqa.selenium.WebDriver as WebDriver
 
-Mobile.startExistingApplication('id.pkp.sehati.uat', FailureHandling.STOP_ON_FAILURE)
-
+//Mobile.startExistingApplication('id.pkp.sehati.uat', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('homePage/buttonAcquisition'), 0)
 
 Mobile.tap(findTestObject('acquisitionPage/buttonPoolingOrder'), 0)
@@ -61,11 +60,11 @@ Mobile.tap(findTestObject('poolingOrderPage/fieldTextTempatLahir'), 0)
 
 Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextTempatLahir'), 'JKT\\n')
 
-Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(0, 1268, 0, 900)
 
@@ -77,7 +76,13 @@ Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('poolingOrderPage/datePicker/buttonInputDatePicker'), 0)
 
-Mobile.sendKeys(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate'), '09/09/2001')
+Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), 0)
+
+Mobile.clearText(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), 0)
+
+Mobile.sendKeys(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), '09/09/2001')
 
 Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
@@ -137,7 +142,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('poolingOrderPage/fieldTextNoIdentitas'), 0)
 
-Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoIdentitas'), '31212512512\\n')
+Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoIdentitas'), '312125125122\\n')
 
 Mobile.hideKeyboard()
 
@@ -146,7 +151,7 @@ Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 // Call the function with desired coordinates
 Mobile.tap(findTestObject('poolingOrderPage/fieldTextNoPolisi'), 0)
 
-Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoPolisi'), '29082023\\n')
+Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoPolisi'), '30082023\\n')
 
 Mobile.hideKeyboard()
 
@@ -157,7 +162,7 @@ Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-driver.getKeyboard().sendKeys('1234Qwer')
+driver.getKeyboard().sendKeys('30082023')
 
 Mobile.hideKeyboard()
 
@@ -167,7 +172,13 @@ submitButtonTapAtPosition(545, 2123)
 
 Mobile.delay(2.5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('poolingOrderPage/buttonOkDDL'), 0)
+Mobile.tap(findTestObject('poolingOrderPage/buttonAjukanPollOrder'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('poolingOrderPage/buttonOkPopUpMessageDataInsert'), 0)
+
+//START FUNCTION
 
 def submitButtonTapAtPosition(int x, int y) {
     Mobile.tapAtPosition(x, y)

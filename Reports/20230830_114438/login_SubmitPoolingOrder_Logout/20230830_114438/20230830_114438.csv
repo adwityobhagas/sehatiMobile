@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login_SubmitPoolingOrder_Logout,,"Sehati Mobile Automation Test 
+Login, Submit Pooling Order, dan Logout dari Aplikasi",,2023-08-30 11:44:41,2023-08-30 11:46:52,2m - 10.712s,PASSED
+,,,,,,,
+Test Cases/loginSehatiMobile(CMO),,,,2023-08-30 11:44:42,2023-08-30 11:45:35,52.863s,PASSED
+"startExistingApplication(""id.pkp.sehati.uat"")",,,,2023-08-30 11:44:42,2023-08-30 11:45:04,21.144s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.EditText - NPK""), 0)",,,,2023-08-30 11:45:04,2023-08-30 11:45:04,0.810s,PASSED
+"sendKeys(findTestObject(""Object Repository/loginPage/android.widget.EditText - NPKMasukan NPK""), ""220885"")",,,,2023-08-30 11:45:04,2023-08-30 11:45:06,1.195s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.EditText - Kata Sandi""), 0)",,,,2023-08-30 11:45:06,2023-08-30 11:45:06,0.756s,PASSED
+"sendKeys(findTestObject(""Object Repository/loginPage/android.widget.EditText - Kata SandiMasukan Kata Sandi""), ""12345678"")",,,,2023-08-30 11:45:06,2023-08-30 11:45:07,1.075s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.Button""), 0)",,,,2023-08-30 11:45:07,2023-08-30 11:45:09,1.166s,PASSED
+"delay(25, STOP_ON_FAILURE)",,,,2023-08-30 11:45:09,2023-08-30 11:45:34,25.048s,PASSED
+"tap(findTestObject(""Object Repository/loginPage/android.widget.ButtonOkSetelahLogin""), 15)",,,,2023-08-30 11:45:34,2023-08-30 11:45:35,1.052s,PASSED
+,,,,,,,
+Test Cases/poolingOrder/submitPoolingNEW,,Sehati Mobile Automated Test,,2023-08-30 11:45:35,2023-08-30 11:46:39,1m - 4.856s,PASSED
+"tap(findTestObject(""homePage/buttonAcquisition""), 0)",,,,2023-08-30 11:45:35,2023-08-30 11:45:37,1.375s,PASSED
+"tap(findTestObject(""acquisitionPage/buttonPoolingOrder""), 0)",,,,2023-08-30 11:45:37,2023-08-30 11:45:37,0.290s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonUnitBisnisDDL""), 0)",,,,2023-08-30 11:45:37,2023-08-30 11:45:38,1.172s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:38,2023-08-30 11:45:40,1.508s,PASSED
+"radioButton1TapAtPosition(970, 1360)",,,,2023-08-30 11:45:40,2023-08-30 11:45:40,0.001s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:45:40,2023-08-30 11:45:40,0.786s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkDDL""), 0)",,,,2023-08-30 11:45:40,2023-08-30 11:45:41,0.363s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonCA_AnggotaDDL""), 0)",,,,2023-08-30 11:45:41,2023-08-30 11:45:42,1.129s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:42,2023-08-30 11:45:43,1.508s,PASSED
+"radioButton1TapAtPosition(970, 1360)",,,,2023-08-30 11:45:43,2023-08-30 11:45:43,0.000s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:45:43,2023-08-30 11:45:44,0.761s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkDDL""), 0)",,,,2023-08-30 11:45:44,2023-08-30 11:45:45,0.349s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:45:45,2023-08-30 11:45:46,1.013s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonKonsumenNewDDL""), 0)",,,,2023-08-30 11:45:46,2023-08-30 11:45:46,0.340s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:46,2023-08-30 11:45:46,0.509s,PASSED
+"searchButtonTapAtPosition(970, 325)",,,,2023-08-30 11:45:46,2023-08-30 11:45:46,0.001s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:45:46,2023-08-30 11:45:47,0.884s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:47,2023-08-30 11:45:49,1.504s,PASSED
+"tap(findTestObject(""poolingOrderPage/cardNumber01""), 0)",,,,2023-08-30 11:45:49,2023-08-30 11:45:49,0.305s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:49,2023-08-30 11:45:51,1.505s,PASSED
+"tap(findTestObject(""poolingOrderPage/fieldTextTempatLahir""), 0)",,,,2023-08-30 11:45:51,2023-08-30 11:45:51,0.761s,PASSED
+"sendKeys(findTestObject(""poolingOrderPage/fieldTextTempatLahir""), ""JKT\n"")",,,,2023-08-30 11:45:51,2023-08-30 11:45:53,1.146s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:45:53,2023-08-30 11:45:54,1.013s,PASSED
+hideKeyboard(),,,,2023-08-30 11:45:54,2023-08-30 11:45:54,0.325s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:45:54,2023-08-30 11:45:55,1.015s,PASSED
+"swipe(0, 1268, 0, 900)",,,,2023-08-30 11:45:55,2023-08-30 11:45:56,1.138s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:45:56,2023-08-30 11:45:57,1.008s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonDatePicker_TglLahir""), 0)",,,,2023-08-30 11:45:57,2023-08-30 11:45:57,0.297s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:57,2023-08-30 11:45:58,0.507s,PASSED
+"tap(findTestObject(""poolingOrderPage/datePicker/buttonInputDatePicker""), 0)",,,,2023-08-30 11:45:58,2023-08-30 11:45:59,1.433s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:45:59,2023-08-30 11:46:00,0.508s,PASSED
+"tap(findTestObject(""poolingOrderPage/datePicker/fieldTextEnterDate_XPATH""), 0)",,,,2023-08-30 11:46:00,2023-08-30 11:46:01,0.838s,PASSED
+"clearText(findTestObject(""poolingOrderPage/datePicker/fieldTextEnterDate_XPATH""), 0)",,,,2023-08-30 11:46:01,2023-08-30 11:46:01,0.302s,PASSED
+"sendKeys(findTestObject(""poolingOrderPage/datePicker/fieldTextEnterDate_XPATH""), ""09/09/2001"")",,,,2023-08-30 11:46:01,2023-08-30 11:46:02,0.694s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:02,2023-08-30 11:46:02,0.515s,PASSED
+"tap(findTestObject(""poolingOrderPage/datePicker/buttonInputOkDatePicker""), 0)",,,,2023-08-30 11:46:02,2023-08-30 11:46:03,1.145s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:03,2023-08-30 11:46:04,0.507s,PASSED
+"tap(findTestObject(""poolingOrderPage/fieldTextNamaIbu""), 0)",,,,2023-08-30 11:46:04,2023-08-30 11:46:04,0.386s,PASSED
+"sendKeys(findTestObject(""poolingOrderPage/fieldTextNamaIbu""), ""TEST IBU\n"")",,,,2023-08-30 11:46:04,2023-08-30 11:46:05,1.106s,PASSED
+hideKeyboard(),,,,2023-08-30 11:46:05,2023-08-30 11:46:06,0.323s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonJenisKelaminDDL""), 0)",,,,2023-08-30 11:46:06,2023-08-30 11:46:06,0.650s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:06,2023-08-30 11:46:08,1.507s,PASSED
+"radioButton1TapAtPosition(970, 1360)",,,,2023-08-30 11:46:08,2023-08-30 11:46:08,0.001s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:46:08,2023-08-30 11:46:08,0.756s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkDDL""), 0)",,,,2023-08-30 11:46:08,2023-08-30 11:46:09,0.343s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:46:09,2023-08-30 11:46:10,1.010s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonStatusPernikahanDDL""), 0)",,,,2023-08-30 11:46:10,2023-08-30 11:46:10,0.334s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:10,2023-08-30 11:46:12,1.515s,PASSED
+"radioButton1TapAtPosition(970, 1360)",,,,2023-08-30 11:46:12,2023-08-30 11:46:12,0.000s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:46:12,2023-08-30 11:46:12,0.730s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkDDL""), 0)",,,,2023-08-30 11:46:12,2023-08-30 11:46:13,0.346s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:46:13,2023-08-30 11:46:14,1.005s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonTypeIdentitasDDL""), 0)",,,,2023-08-30 11:46:14,2023-08-30 11:46:14,0.238s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:14,2023-08-30 11:46:16,1.516s,PASSED
+"radioButton1TapAtPosition(970, 1360)",,,,2023-08-30 11:46:16,2023-08-30 11:46:16,0.001s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:46:16,2023-08-30 11:46:16,0.711s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkDDL""), 0)",,,,2023-08-30 11:46:16,2023-08-30 11:46:16,0.241s,PASSED
+"swipe(0, 1600, 0, 1083)",,,,2023-08-30 11:46:16,2023-08-30 11:46:18,1.043s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:18,2023-08-30 11:46:18,0.507s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonCallNoTelepon""), 0)",,,,2023-08-30 11:46:18,2023-08-30 11:46:18,0.330s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-30 11:46:18,2023-08-30 11:46:20,2.014s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonRejectCall""), 0)",,,,2023-08-30 11:46:20,2023-08-30 11:46:21,0.250s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-30 11:46:21,2023-08-30 11:46:22,1.006s,PASSED
+"tap(findTestObject(""poolingOrderPage/fieldTextNoIdentitas""), 0)",,,,2023-08-30 11:46:22,2023-08-30 11:46:24,1.998s,PASSED
+"sendKeys(findTestObject(""poolingOrderPage/fieldTextNoIdentitas""), ""312125125122\n"")",,,,2023-08-30 11:46:24,2023-08-30 11:46:24,0.236s,PASSED
+hideKeyboard(),,,,2023-08-30 11:46:24,2023-08-30 11:46:24,0.264s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:24,2023-08-30 11:46:25,0.516s,PASSED
+"tap(findTestObject(""poolingOrderPage/fieldTextNoPolisi""), 0)",,,,2023-08-30 11:46:25,2023-08-30 11:46:25,0.236s,PASSED
+"sendKeys(findTestObject(""poolingOrderPage/fieldTextNoPolisi""), ""30082023\n"")",,,,2023-08-30 11:46:25,2023-08-30 11:46:26,1.133s,PASSED
+hideKeyboard(),,,,2023-08-30 11:46:26,2023-08-30 11:46:26,0.280s,PASSED
+"tap(findTestObject(""poolingOrderPage/fieldTextNoMesin (1)""), 0)",,,,2023-08-30 11:46:26,2023-08-30 11:46:28,1.333s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:28,2023-08-30 11:46:28,0.503s,PASSED
+driver = getDriver(),,,,2023-08-30 11:46:28,2023-08-30 11:46:28,0.000s,PASSED
+"getKeyboard().sendKeys(""30082023"")",,,,2023-08-30 11:46:28,2023-08-30 11:46:29,0.376s,PASSED
+hideKeyboard(),,,,2023-08-30 11:46:29,2023-08-30 11:46:30,1.769s,PASSED
+"delay(0.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:30,2023-08-30 11:46:31,0.514s,PASSED
+"submitButtonTapAtPosition(545, 2123)",,,,2023-08-30 11:46:31,2023-08-30 11:46:31,0.001s,PASSED
+"tapAtPosition(x, y)",,,,2023-08-30 11:46:31,2023-08-30 11:46:32,1.144s,PASSED
+"delay(2.5, STOP_ON_FAILURE)",,,,2023-08-30 11:46:32,2023-08-30 11:46:34,2.517s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonAjukanPollOrder""), 0)",,,,2023-08-30 11:46:34,2023-08-30 11:46:35,0.309s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-08-30 11:46:35,2023-08-30 11:46:38,3.005s,PASSED
+"tap(findTestObject(""poolingOrderPage/buttonOkPopUpMessageDataInsert""), 0)",,,,2023-08-30 11:46:38,2023-08-30 11:46:39,1.708s,PASSED
+,,,,,,,
+Test Cases/logoutSehatiMobile,,,,2023-08-30 11:46:39,2023-08-30 11:46:52,12.621s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonProfile""), 0)",,,,2023-08-30 11:46:40,2023-08-30 11:46:49,8.760s,PASSED
+"tap(findTestObject(""logoutPage/buttonLogout""), 0)",,,,2023-08-30 11:46:49,2023-08-30 11:46:50,1.147s,PASSED
+"tap(findTestObject(""Object Repository/logoutPage/buttonKeluarLogout""), 0)",,,,2023-08-30 11:46:50,2023-08-30 11:46:51,1.631s,PASSED
+closeApplication(),,,,2023-08-30 11:46:51,2023-08-30 11:46:52,0.674s,PASSED

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>logoutSehatiMobile</name>
+   <name>orderMenu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fc9207eb-1cb5-41e2-b8d4-fb2ebb1a98fa</testCaseGuid>
+   <testCaseGuid>c8092f1a-8ab3-4e78-b68e-382eb9adb1d4</testCaseGuid>
 </TestCaseEntity>

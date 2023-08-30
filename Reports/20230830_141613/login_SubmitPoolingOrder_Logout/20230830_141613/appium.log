@@ -1,0 +1,1424 @@
+[35m[Appium][39m Welcome to Appium v1.22.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 55016
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\User\AppData\Local\Temp\\Katalon\Appium\Temp1693379778596
+[35m[Appium][39m   chromedriverPort: 55017
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 55017
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55016
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m12 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"aihykrce5lrgzhxg","deviceName":"Xiaomi M2103K19PG (Android 12)","platform":"ANDROID","systemPort":8242},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2103K19PG (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8242,"appium:udid":"aihykrce5lrgzhxg"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\User\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/User/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: aihykrce5lrgzhxg
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\User\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.24.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.24.0.apk' and test from 'C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 7378b263-5497-4b62-b59a-31d749252a4c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14103 ms - 1181[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c [39m[32m200[39m [90m12 ms - 1135[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c [39m[32m200[39m [90m14 ms - 1135[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/screenshot [39m[32m200[39m [90m528 ms - 199464[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/system_bars [39m[32m200[39m [90m101 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"id.pkp.sehati.uat"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/activate_app [39m[32m200[39m [90m3519 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'NPK' or . = 'NPK') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m769 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/location [39m[32m200[39m [90m24 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03b100000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/click [39m[32m200[39m [90m734 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'NPK\nMasukan NPK' or . = 'NPK\nMasukan NPK') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m996 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/location [39m[32m200[39m [90m26 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03b100000003","text":"220885","value":["2","2","0","8","8","5"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b100000003/value [39m[32m200[39m [90m61 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Kata Sandi' or . = 'Kata Sandi') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m787 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/location [39m[32m200[39m [90m30 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03b200000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/click [39m[32m200[39m [90m52 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Kata Sandi\nMasukan Kata Sandi' or . = 'Kata Sandi\nMasukan Kata Sandi') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m635 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/location [39m[32m200[39m [90m31 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03b200000003","text":"12345678","value":["1","2","3","4","5","6","7","8"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b200000003/value [39m[32m200[39m [90m58 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Masuk"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m647 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b600000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b600000003/location [39m[32m200[39m [90m34 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b600000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03b600000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03b600000003/click [39m[32m200[39m [90m901 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m24 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and @resource-id = '' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m110 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-040a00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-040a00000003/location [39m[32m200[39m [90m35 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-040a00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-040a00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-040a00000003/click [39m[32m200[39m [90m818 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[3]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m640 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03f300000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03f300000003/location [39m[32m200[39m [90m505 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03f300000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-03f300000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-03f300000003/click [39m[32m200[39m [90m970 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m25 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pooling Order\nMenu untuk melakukan pooling order"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m55 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041500000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041500000003/location [39m[32m200[39m [90m28 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041500000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-041500000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041500000003/click [39m[32m200[39m [90m982 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m125 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-042c00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-042c00000003/location [39m[32m200[39m [90m570 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-042c00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-042c00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-042c00000003/click [39m[32m200[39m [90m64 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":1360}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m736 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m22 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m538 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-043d00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-043d00000003/location [39m[32m200[39m [90m27 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-043d00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-043d00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-043d00000003/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m895 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044100000003/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044100000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-044100000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044100000003/click [39m[32m200[39m [90m51 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":1360}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m1215 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m100 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044d00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044d00000003/location [39m[32m200[39m [90m29 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044d00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-044d00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-044d00000003/click [39m[32m200[39m [90m59 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m620 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-045300000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-045300000003/location [39m[32m200[39m [90m27 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-045300000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-045300000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-045300000003/click [39m[32m200[39m [90m49 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":325}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m715 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m132 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047100000003/location [39m[32m200[39m [90m28 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047100000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-047100000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047100000003/click [39m[32m200[39m [90m54 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m145 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/location [39m[32m200[39m [90m31 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-047e00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/click [39m[32m200[39m [90m58 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m882 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/location [39m[32m200[39m [90m22 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-047e00000003","text":"JKT\\n","value":["J","K","T","\\","n"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-047e00000003/value [39m[32m200[39m [90m85 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m172 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Keyboard has no UI; no closing necessary
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard [39m[32m200[39m [90m121 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m119 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":0,"y":1268}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":0,"y":900}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m915 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m394 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048000000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048000000003/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048000000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-048000000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048000000003/click [39m[32m200[39m [90m1525 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m889 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-049000000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-049000000003/location [39m[32m200[39m [90m494 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-049000000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-049000000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-049000000003/click [39m[32m200[39m [90m1124 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m701 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location [39m[32m200[39m [90m469 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04c400000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/click [39m[32m200[39m [90m54 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m859 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04c400000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/clear [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m1153 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04c400000003","text":"09/09/2001","value":["0","9","/","0","9","/","2","0","0","1"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c400000003/value [39m[32m200[39m [90m529 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"OK"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m342 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c300000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c300000003/location [39m[32m200[39m [90m23 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c300000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04c300000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04c300000003/click [39m[32m200[39m [90m959 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = '' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m484 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-048100000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/click [39m[32m200[39m [90m56 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = '' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m833 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-048100000003","text":"TEST IBU\\n","value":["T","E","S","T"," ","I","B","U","\\","n"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048100000003/value [39m[32m200[39m [90m70 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m107 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Keyboard has no UI; no closing necessary
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard [39m[32m200[39m [90m126 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m1339 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048300000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048300000003/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048300000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-048300000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-048300000003/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":1360}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m743 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m473 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04d000000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04d000000003/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04d000000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04d000000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04d000000003/click [39m[32m200[39m [90m57 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m58 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04df00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04df00000003/location [39m[32m200[39m [90m15 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04df00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04df00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04df00000003/click [39m[32m200[39m [90m52 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":1360}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m1045 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m89 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04f200000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04f200000003/location [39m[32m200[39m [90m30 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04f200000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-04f200000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-04f200000003/click [39m[32m200[39m [90m48 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[4]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m527 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-050300000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-050300000003/location [39m[32m200[39m [90m18 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-050300000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-050300000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-050300000003/click [39m[32m200[39m [90m44 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":970,"y":1360}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m829 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[6]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m433 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-051500000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-051500000003/location [39m[32m200[39m [90m12 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-051500000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-051500000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-051500000003/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m88 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":0,"y":1600}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":0,"y":1083}},{"action":"release","options":{}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m900 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ImageView[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m249 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052800000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052800000003/location [39m[32m200[39m [90m26 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052800000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052800000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052800000003/click [39m[32m200[39m [90m62 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m81 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-142e-ffff-ffff00000030/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-142e-ffff-ffff00000030/location [39m[32m200[39m [90m11 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-142e-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-142e-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-142e-ffff-ffff00000030/click [39m[32m200[39m [90m47 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m397 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/location [39m[32m200[39m [90m11 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052700000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/click [39m[32m200[39m [90m938 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/location [39m[32m200[39m [90m9 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052700000003","text":"312125125122\\n","value":["3","1","2","1","2","5","1","2","5","1","2","2","\\","n"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052700000003/value [39m[32m200[39m [90m60 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m120 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Keyboard has no UI; no closing necessary
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard [39m[32m200[39m [90m124 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m920 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052900000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[2]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m915 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/location [39m[32m200[39m [90m24 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052900000003","text":"30082023\\n","value":["3","0","0","8","2","0","2","3","\\","n"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052900000003/value [39m[32m200[39m [90m62 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m164 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Keyboard has no UI; no closing necessary
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard [39m[32m200[39m [90m122 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m1369 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052a00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052a00000003/location [39m[32m200[39m [90m23 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052a00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-052a00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-052a00000003/click [39m[32m200[39m [90m43 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/actions[39m
+[35m[HTTP][39m [90m{"actions":[{"type":"key","actions":[{"type":"keyDown","value":"3"},{"type":"keyUp","value":"3"},{"type":"keyDown","value":"0"},{"type":"keyUp","value":"0"},{"type":"keyDown","value":"0"},{"type":"keyUp","value":"0"},{"type":"keyDown","value":"8"},{"type":"keyUp","value":"8"},{"type":"keyDown","value":"2"},{"type":"keyUp","value":"2"},{"type":"keyDown","value":"0"},{"type":"keyUp","value":"0"},{"type":"keyDown","value":"2"},{"type":"keyUp","value":"2"},{"type":"keyDown","value":"3"},{"type":"keyUp","value":"3"}],"id":"keyboard"}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/actions [39m[32m200[39m [90m442 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/contexts [39m[32m200[39m [90m96 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/appium/device/hide_keyboard [39m[32m200[39m [90m1623 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":545,"y":2123}},{"action":"wait","options":{"ms":50}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/touch/perform [39m[32m200[39m [90m1527 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m391 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053600000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053600000003/location [39m[32m200[39m [90m914 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053600000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-053600000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053600000003/click [39m[32m200[39m [90m84 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m749 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053c00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053c00000003/location [39m[32m200[39m [90m27 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053c00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-053c00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-053c00000003/click [39m[32m200[39m [90m61 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m528 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041f00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (7378b263)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 3912d665-b96e-4d39-80e6-e682ff76eaf5 with 7378b263-5497-4b62-b59a-31d749252a4c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041f00000003/location [39m[32m200[39m [90m27 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041f00000003/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-141f-0000-041f00000003"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/element/00000000-0000-141f-0000-041f00000003/click [39m[32m200[39m [90m1518 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m549 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m185 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m575 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m229 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m183 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m527 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m160 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m726 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m889 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m234 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m209 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m530 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m223 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m135 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m572 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m901 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/7378b263-5497-4b62-b59a-31d749252a4c/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '7378b263-5497-4b62-b59a-31d749252a4c' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

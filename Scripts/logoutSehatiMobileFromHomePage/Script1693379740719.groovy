@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('buttonBackFromMenu'), 0)
+
+Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('buttonBackFromMenu'), 0)
+
+Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('buttonBackFromMenu'), 0)
+
+Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/logoutPage/buttonProfile'), 0)
 
 Mobile.tap(findTestObject('logoutPage/buttonLogout'), 0)
