@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import org.openqa.selenium.WebDriver as WebDriver
 
-//Mobile.startExistingApplication('id.pkp.sehati.uat', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('id.pkp.sehati.uat', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('homePage/buttonAcquisition'), 0)
 
 Mobile.tap(findTestObject('acquisitionPage/buttonPoolingOrder'), 0)
@@ -136,7 +137,7 @@ Mobile.tap(findTestObject('poolingOrderPage/buttonCallNoTelepon'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('poolingOrderPage/buttonRejectCall'), 0)
+Mobile.tap(findTestObject('buttonRejectCall'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -151,7 +152,7 @@ Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 // Call the function with desired coordinates
 Mobile.tap(findTestObject('poolingOrderPage/fieldTextNoPolisi'), 0)
 
-Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoPolisi'), '30082023\\n')
+Mobile.sendKeys(findTestObject('poolingOrderPage/fieldTextNoPolisi'), '31082023\\n')
 
 Mobile.hideKeyboard()
 
@@ -162,7 +163,7 @@ Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-driver.getKeyboard().sendKeys('30082023')
+driver.getKeyboard().sendKeys('31082023')
 
 Mobile.hideKeyboard()
 
@@ -176,7 +177,7 @@ Mobile.tap(findTestObject('poolingOrderPage/buttonAjukanPollOrder'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('poolingOrderPage/buttonOkPopUpMessageDataInsert'), 0)
+Mobile.tap(findTestObject('poolingOrderPage/buttonOkPopUpMessageDataInsert'), 0) 
 
 //START FUNCTION
 
