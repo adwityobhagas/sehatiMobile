@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>orderMenu</name>
+   <name>dataCustomer</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c8092f1a-8ab3-4e78-b68e-382eb9adb1d4</testCaseGuid>
