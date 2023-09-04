@@ -28,11 +28,11 @@ Mobile.tap(findTestObject('acquisitionPage/buttonOrder'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('orderPage/orderCard2'), 0)
+Mobile.tap(findTestObject('orderPage/orderCard1'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 1800, 0, 1325)
+Mobile.swipe(500, 1800, 500, 1325)
 
 Mobile.tap(findTestObject('orderPage/editOrderPage/buttonDataCustomer_EditOrder'), 0)
 
@@ -84,7 +84,7 @@ Mobile.hideKeyboard()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 2040, 0, 1542)
+Mobile.swipe(500, 2040, 500, 1543)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -126,7 +126,7 @@ Mobile.hideKeyboard()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 1640, 0, 1305)
+Mobile.swipe(500, 1640, 500, 1305)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -222,7 +222,7 @@ Mobile.hideKeyboard()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 1640, 0, 1040)
+Mobile.swipe(500, 1640, 500, 1040)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -264,7 +264,7 @@ Mobile.tap(findTestObject('DDL_Pop-Up/buttonOkDDL'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 1640, 0, 1040)
+Mobile.swipe(500, 1640, 500, 1040)
 
 Mobile.tap(findTestObject('orderPage/formDataCustomer/buttonSubKodePosDDL'), 0)
 
@@ -280,25 +280,27 @@ Mobile.tap(findTestObject('orderPage/formDataCustomer/buttonMapGeotag'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 525, 0, 2000)
+Mobile.swipe(500, 525, 500, 2000)
 
 Mobile.delay(1.5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.swipe(500, 2040, 500, 1548)
 
-Mobile.swipe(0, 2040, 0, 1542)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+submitButtonTapAtPosition(549, 2161)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('orderPage/formDataCustomer/buttonCallNoHp1'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('buttonRejectCall'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-submitButtonTapAtPosition(545, 2123)
+submitButtonTapAtPosition(549, 2161)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 

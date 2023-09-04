@@ -177,9 +177,7 @@ Mobile.tap(findTestObject('poolingOrderPage/buttonAjukanPollOrder'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('poolingOrderPage/buttonOkPopUpMessageDataInsert'), 0) 
-
-//START FUNCTION
+Mobile.tap(findTestObject('poolingOrderPage/buttonOkPopUpMessageDataInsert'), 0) //START FUNCTION
 
 def submitButtonTapAtPosition(int x, int y) {
     Mobile.tapAtPosition(x, y)

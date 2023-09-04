@@ -28,7 +28,7 @@ Mobile.tap(findTestObject('orderPage/editOrderPage/buttonDataOrder_EditOrder'), 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 600, 0, 530)
+Mobile.swipe(500, 600, 500, 530)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -106,7 +106,7 @@ Mobile.tap(findTestObject('DDL_Pop-Up/buttonOkDDL'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 2030, 0, 1030)
+Mobile.swipe(500, 2030, 500, 1030)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -144,7 +144,7 @@ submitButtonTapAtPosition(545, 2123)
 
 Mobile.delay(2.5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(0, 600, 0, 530)
+Mobile.swipe(500, 600, 500, 530)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
