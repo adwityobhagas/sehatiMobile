@@ -88,7 +88,7 @@ Mobile.tap(findTestObject('DDL_Pop-Up/buttonOkDDL'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(500, 2040, 500, 1529)
+Mobile.swipe(500, 2000, 500, 1497)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -152,7 +152,7 @@ Mobile.tap(findTestObject('DDL_Pop-Up/buttonOkDDL'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(500, 2040, 500, 1527)
+Mobile.swipe(500, 2000, 500, 1498)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -278,13 +278,19 @@ Mobile.tap(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'
 
 Mobile.clearText(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), 0)
 
-Mobile.sendKeys(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), '09/09/2001')
+Mobile.sendKeys(findTestObject('poolingOrderPage/datePicker/fieldTextEnterDate_XPATH'), '04/09/2023')
 
 Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('poolingOrderPage/datePicker/buttonInputOkDatePicker'), 0)
 
 Mobile.delay(0.5, FailureHandling.STOP_ON_FAILURE)
+
+submitButtonTapAtPosition(545, 2123)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('buttonOkPopUpMessageDataInsert'), 0)
 
 def submitButtonTapAtPosition(int x, int y) {
     Mobile.tapAtPosition(x, y)
