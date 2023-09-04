@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Automation test pada form DATA LAS</description>
+   <name>dataLAS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d831243-1b8b-4f12-888d-7ca90d6564a4</testCaseGuid>
+</TestCaseEntity>
